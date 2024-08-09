@@ -1,0 +1,31 @@
+==1193370== pmemcheck-1.0, a simple persistent store checker
+==1193370== Copyright (c) 2014-2020, Intel Corporation
+==1193370== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==1193370== Command: ./spiral_storage
+==1193370== Parent PID: 4898
+==1193370== 
+==1193370== brk segment overflow in thread #1: can't grow to 0x4855000
+==1193370== (see section Limitations in user manual)
+==1193370== NOTE: further instances of this message will not be shown
+==1193370== 
+==1193370== Process terminating with default action of signal 6 (SIGABRT)
+==1193370==    at 0x4C4CA7C: pthread_kill@@GLIBC_2.34 (pthread_kill.c:44)
+==1193370==    by 0x4BF8475: raise (raise.c:26)
+==1193370==    by 0x4BDE7F2: abort (abort.c:79)
+==1193370==    by 0x4C3F6F5: __libc_message (libc_fatal.c:155)
+==1193370==    by 0x4C56D7B: malloc_printerr (malloc.c:5664)
+==1193370==    by 0x4C58EFB: _int_free (malloc.c:4591)
+==1193370==    by 0x4C5B4D2: free (malloc.c:3391)
+==1193370==    by 0x4C43CF8: _IO_setb (genops.c:331)
+==1193370==    by 0x4C41FD4: _IO_file_close_it@@GLIBC_2.2.5 (fileops.c:153)
+==1193370==    by 0x4C34E0E: fclose@@GLIBC_2.2.5 (iofclose.c:53)
+==1193370==    by 0x10AB71: main (in /home/wpeng/wpeng/PMDK_Spiral/Spiral_Storage/src/Spiral_Lock/spiral_storage)
+==1193370== 
+==1193370== Number of stores not made persistent: 1
+==1193370== Stores not made persistent properly:
+==1193370== [0]    at 0x10CC60: SpiralStorage::Insert(unsigned long&, char const*) (in /home/wpeng/wpeng/PMDK_Spiral/Spiral_Storage/src/Spiral_Lock/spiral_storage)
+==1193370==    by 0x10EBF7: SpiralStorage::insert(char const*, unsigned long, char const*, unsigned long, unsigned int, unsigned int) (in /home/wpeng/wpeng/PMDK_Spiral/Spiral_Storage/src/Spiral_Lock/spiral_storage)
+==1193370==    by 0x10B17A: main (in /home/wpeng/wpeng/PMDK_Spiral/Spiral_Storage/src/Spiral_Lock/spiral_storage)
+==1193370== 	Address: 0x59c0630	size: 8	state: DIRTY
+==1193370== Total memory not made persistent: 8
+==1193370== ERROR SUMMARY: 1 errors

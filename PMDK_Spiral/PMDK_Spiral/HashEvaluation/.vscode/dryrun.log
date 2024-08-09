@@ -1,0 +1,13 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/wpeng/wpeng/PMDK_Spiral/HashEvaluation'
+make -C pibench/pcm ;
+make -C pibench/src 
+make -C ./hash/common ;\
+for dir in ./hash/CCEH ./hash/Extendible ./hash/common ./hash/Spiral_Lock ./hash/.vscode ./hash/Spiral_Storage_testing ./hash/Spiral_Storage ./hash/Level ./hash/Dash ./hash/PCLHT ./hash/SOFT ./hash/Linear_Hash ./hash/Spiral_No_lock ./hash/Clevel;\
+do\
+	make -C $dir;\
+done
+mkdir bin;find ./ -name "*.so" ! -name "lib*" -type f -exec cp {} ./bin/ \;;\
+cp pibench/src/PiBench ./bin;
+make: Leaving directory '/home/wpeng/wpeng/PMDK_Spiral/HashEvaluation'
+ 

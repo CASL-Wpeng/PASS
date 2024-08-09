@@ -1,0 +1,19 @@
+==1193705== pmemcheck-1.0, a simple persistent store checker
+==1193705== Copyright (c) 2014-2020, Intel Corporation
+==1193705== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==1193705== Command: ./spiral_storage
+==1193705== Parent PID: 4898
+==1193705== 
+==1193705== brk segment overflow in thread #1: can't grow to 0x4856000
+==1193705== (see section Limitations in user manual)
+==1193705== NOTE: further instances of this message will not be shown
+==1193705== 
+==1193705== Number of stores not made persistent: 1
+==1193705== Stores not made persistent properly:
+==1193705== [0]    at 0x10C7C8: SpiralStorage::Insert(unsigned long&, char const*) (in /home/wpeng/wpeng/PMDK_Spiral/Spiral_Storage/src/Spiral_YCSB_Lock/spiral_storage)
+==1193705==    by 0x10D12D: ycsb_thread_run(void*) (in /home/wpeng/wpeng/PMDK_Spiral/Spiral_Storage/src/Spiral_YCSB_Lock/spiral_storage)
+==1193705==    by 0x4C4AB42: start_thread (pthread_create.c:442)
+==1193705==    by 0x4CDBBB3: clone (clone.S:100)
+==1193705== 	Address: 0x59c0618	size: 8	state: DIRTY
+==1193705== Total memory not made persistent: 8
+==1193705== ERROR SUMMARY: 1 errors

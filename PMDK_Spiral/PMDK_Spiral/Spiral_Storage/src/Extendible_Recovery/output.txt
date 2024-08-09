@@ -1,0 +1,12 @@
+==994682== pmemcheck-1.0, a simple persistent store checker
+==994682== Copyright (c) 2014-2020, Intel Corporation
+==994682== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==994682== Command: ./extendible
+==994682== Parent PID: 4898
+==994682== 
+==994682== brk segment overflow in thread #1: can't grow to 0x4856000
+==994682== (see section Limitations in user manual)
+==994682== NOTE: further instances of this message will not be shown
+==994682== 
+==994682== Number of stores not made persistent: 0
+==994682== ERROR SUMMARY: 0 errors

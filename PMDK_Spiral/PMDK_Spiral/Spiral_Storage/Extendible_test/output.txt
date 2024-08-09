@@ -1,0 +1,12 @@
+==453903== pmemcheck-1.0, a simple persistent store checker
+==453903== Copyright (c) 2014-2020, Intel Corporation
+==453903== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==453903== Command: ./extendible
+==453903== Parent PID: 5201
+==453903== 
+==453903== brk segment overflow in thread #1: can't grow to 0x4855000
+==453903== (see section Limitations in user manual)
+==453903== NOTE: further instances of this message will not be shown
+==453903== 
+==453903== Number of stores not made persistent: 0
+==453903== ERROR SUMMARY: 0 errors

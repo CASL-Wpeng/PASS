@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/wpeng/wpeng/PMDK_Spiral/HashEvaluation/hash/Spiral_Storage_testing'
+g++ -std=c++17 -O3 -I../common -L../common  -lmyvmem  -lvmem -DCLWB  -DPMEM_LOC="\"/mnt/pmem\"" -DINPLACE -I./_deps/epoch_reclaimer-src -Wno-long-long -march=native -Ofast -O3 -DNDEBUG -std=gnu++17 -fPIC -shared example.cpp -o Spiral.so 
+make: Leaving directory '/home/wpeng/wpeng/PMDK_Spiral/HashEvaluation/hash/Spiral_Storage_testing'
+ 

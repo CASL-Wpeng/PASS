@@ -1,0 +1,46 @@
+Testing Begin
+testing Direcotry 2
+new dirctory ends
+new Block with depth 1
+new Block with depth 1
+init ends
+Current capacity of Extendible hashing is 2
+insertion start
+Insert Ends for key 0
+Insert Ends for key 1
+Insert Ends for key 2
+Insert Ends for key 3
+Insert Ends for key 4
+Insert Ends for key 5
+Insert Ends for key 6
+new Block with depth 2
+new Block with depth 2
+testing dir doubling
+0
+testing dir doubling
+Insert Ends for key 7
+Insert Ends for key 8
+Insert Ends for key 9
+new Block with depth 2
+new Block with depth 2
+Insert Ends for key 10
+new Block with depth 3
+new Block with depth 3
+testing dir doubling
+0
+testing dir doubling
+Insert Ends for key 11
+Insert Ends for key 12
+Insert Ends for key 13
+Insert Ends for key 14
+Insert Ends for key 15
+new Block with depth 3
+new Block with depth 3
+Insert Ends for key 16
+Insert Ends for key 17
+Insert Ends for key 18
+new Block with depth 3
+new Block with depth 3
+Insert Ends for key 19
+find record 20
+testing ends

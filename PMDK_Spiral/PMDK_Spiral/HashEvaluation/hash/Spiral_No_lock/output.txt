@@ -1,0 +1,288 @@
+Testing Begin
+1
+Initization Begins
+Spiral storage look up table initialization succeeds
+The length of table is 500000
+The number of all buckets: 2
+The number of all entries: 6
+The persistent spiral storage table initialization succeeds!
+Key address is 0x7ffd99557790
+vistual insertion
+key is 0
+hash key is 0.840188 
+G is 2.840188 
+f_idx is 7
+physical address is 0
+Bucket Check
+unlock for lock 0
+insert success
+Insert Ends for key 0
+Key address is 0x7ffd99557790
+vistual insertion
+key is 1
+hash key is 0.840188 
+G is 2.840188 
+f_idx is 7
+physical address is 0
+Insert for bucket location 0 fail
+Bucket Check
+unlock for lock 0
+insert success
+Insert Ends for key 1
+Key address is 0x7ffd99557790
+vistual insertion
+key is 2
+hash key is 0.700976 
+G is 2.700976 
+f_idx is 6
+physical address is 3
+Bucket Check
+unlock for lock 0
+insert success
+Insert Ends for key 2
+Key address is 0x7ffd99557790
+vistual insertion
+key is 3
+hash key is 0.561380 
+G is 2.561380 
+f_idx is 5
+physical address is 1
+Bucket Check
+unlock for lock 0
+insert success
+Insert Ends for key 3
+Key address is 0x7ffd99557790
+vistual insertion
+key is 4
+hash key is 0.916458 
+G is 2.916458 
+f_idx is 7
+physical address is 0
+Insert for bucket location 0 fail
+Insert for bucket location 1 fail
+Bucket Check
+unlock for lock 0
+insert success
+Insert Ends for key 4
+Key address is 0x7ffd99557790
+vistual insertion
+key is 5
+hash key is 0.274746 
+G is 2.274746 
+f_idx is 4
+physical address is 2
+Bucket Check
+unlock for lock 0
+insert success
+Insert Ends for key 5
+Key address is 0x7ffd99557790
+vistual insertion
+key is 6
+hash key is 0.135439 
+G is 2.135439 
+f_idx is 4
+physical address is 2
+Insert for bucket location 0 fail
+Bucket Check
+unlock for lock 0
+insert success
+Insert Ends for key 6
+Key address is 0x7ffd99557790
+vistual insertion
+key is 7
+hash key is 0.486904 
+G is 2.486904 
+f_idx is 5
+physical address is 1
+Insert for bucket location 0 fail
+Bucket Check
+unlock for lock 0
+insert success
+Insert Ends for key 7
+Key address is 0x7ffd99557790
+vistual insertion
+key is 8
+hash key is 0.352761 
+G is 2.352761 
+f_idx is 5
+physical address is 1
+Insert for bucket location 0 fail
+Insert for bucket location 1 fail
+Bucket Check
+unlock for lock 0
+insert success
+Insert Ends for key 8
+Key address is 0x7ffd99557790
+vistual insertion
+key is 9
+hash key is 0.206965 
+G is 2.206965 
+f_idx is 4
+physical address is 2
+Insert for bucket location 0 fail
+Insert for bucket location 1 fail
+Bucket Check
+unlock for lock 0
+insert success
+Insert Ends for key 9
+key is 0
+hash key is 0.840188 
+G is 2.840188 
+Search Ends for key 0
+key is 1
+hash key is 0.840188 
+G is 2.840188 
+Search Ends for key 1
+key is 2
+hash key is 0.700976 
+G is 2.700976 
+Search Ends for key 2
+key is 3
+hash key is 0.561380 
+G is 2.561380 
+Search Ends for key 3
+key is 4
+hash key is 0.916458 
+G is 2.916458 
+Search Ends for key 4
+key is 5
+hash key is 0.274746 
+G is 2.274746 
+Search Ends for key 5
+key is 6
+hash key is 0.135439 
+G is 2.135439 
+Search Ends for key 6
+key is 7
+hash key is 0.486904 
+G is 2.486904 
+Search Ends for key 7
+key is 8
+hash key is 0.352761 
+G is 2.352761 
+Search Ends for key 8
+key is 9
+hash key is 0.206965 
+G is 2.206965 
+Search Ends for key 9
+key is 0
+hash key is 0.840188 
+G is 2.840188 
+insert starts
+f_idx is7
+Update Ends for key 0
+key is 1
+hash key is 0.840188 
+G is 2.840188 
+insert starts
+f_idx is7
+Update Ends for key 1
+key is 2
+hash key is 0.700976 
+G is 2.700976 
+insert starts
+f_idx is6
+Update Ends for key 2
+key is 3
+hash key is 0.561380 
+G is 2.561380 
+insert starts
+f_idx is5
+Update Ends for key 3
+key is 4
+hash key is 0.916458 
+G is 2.916458 
+insert starts
+f_idx is7
+Update Ends for key 4
+key is 5
+hash key is 0.274746 
+G is 2.274746 
+insert starts
+f_idx is4
+Update Ends for key 5
+key is 6
+hash key is 0.135439 
+G is 2.135439 
+insert starts
+f_idx is4
+Update Ends for key 6
+key is 7
+hash key is 0.486904 
+G is 2.486904 
+insert starts
+f_idx is5
+Update Ends for key 7
+key is 8
+hash key is 0.352761 
+G is 2.352761 
+insert starts
+f_idx is5
+Update Ends for key 8
+key is 9
+hash key is 0.206965 
+G is 2.206965 
+insert starts
+f_idx is4
+Update Ends for key 9
+key is 0
+hash key is 0.840188 
+G is 2.840188 
+insert starts
+f_idx is7
+Deletion Ends for key 0
+key is 1
+hash key is 0.840188 
+G is 2.840188 
+insert starts
+f_idx is7
+Deletion Ends for key 1
+key is 2
+hash key is 0.700976 
+G is 2.700976 
+insert starts
+f_idx is6
+Deletion Ends for key 2
+key is 3
+hash key is 0.561380 
+G is 2.561380 
+insert starts
+f_idx is5
+Deletion Ends for key 3
+key is 4
+hash key is 0.916458 
+G is 2.916458 
+insert starts
+f_idx is7
+Deletion Ends for key 4
+key is 5
+hash key is 0.274746 
+G is 2.274746 
+insert starts
+f_idx is4
+Deletion Ends for key 5
+key is 6
+hash key is 0.135439 
+G is 2.135439 
+insert starts
+f_idx is4
+Deletion Ends for key 6
+key is 7
+hash key is 0.486904 
+G is 2.486904 
+insert starts
+f_idx is5
+Deletion Ends for key 7
+key is 8
+hash key is 0.352761 
+G is 2.352761 
+insert starts
+f_idx is5
+Deletion Ends for key 8
+key is 9
+hash key is 0.206965 
+G is 2.206965 
+insert starts
+f_idx is4
+Deletion Ends for key 9
+testing ends

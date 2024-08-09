@@ -1,0 +1,4 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "cmake.sourceDirectory": "${workspaceFolder}/Dash/_deps/epoch_reclaimer-src"
+}

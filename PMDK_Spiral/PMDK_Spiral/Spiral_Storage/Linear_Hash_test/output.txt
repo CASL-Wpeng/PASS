@@ -1,0 +1,12 @@
+==529204== pmemcheck-1.0, a simple persistent store checker
+==529204== Copyright (c) 2014-2020, Intel Corporation
+==529204== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==529204== Command: ./linear
+==529204== Parent PID: 5201
+==529204== 
+==529204== brk segment overflow in thread #1: can't grow to 0x4856000
+==529204== (see section Limitations in user manual)
+==529204== NOTE: further instances of this message will not be shown
+==529204== 
+==529204== Number of stores not made persistent: 0
+==529204== ERROR SUMMARY: 0 errors

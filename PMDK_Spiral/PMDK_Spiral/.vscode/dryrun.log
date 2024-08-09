@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/wpeng/wpeng/PMDK_Spiral'
+make: Leaving directory '/home/wpeng/wpeng/PMDK_Spiral'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

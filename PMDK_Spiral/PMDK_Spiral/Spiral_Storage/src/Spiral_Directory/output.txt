@@ -1,0 +1,12 @@
+==1013769== pmemcheck-1.0, a simple persistent store checker
+==1013769== Copyright (c) 2014-2020, Intel Corporation
+==1013769== Using Valgrind-3.19.0 and LibVEX; rerun with -h for copyright info
+==1013769== Command: ./spiral_storage
+==1013769== Parent PID: 4898
+==1013769== 
+==1013769== brk segment overflow in thread #1: can't grow to 0x4855000
+==1013769== (see section Limitations in user manual)
+==1013769== NOTE: further instances of this message will not be shown
+==1013769== 
+==1013769== Number of stores not made persistent: 0
+==1013769== ERROR SUMMARY: 0 errors
