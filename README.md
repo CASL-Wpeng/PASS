@@ -70,10 +70,14 @@ The current version only contains the traditional spiral storage on PM. The code
    make
    sudo ./PiBench hashFunctionName -keys
    ```
+   To run the code with YCSB:
+   ```bash
+   cd Spiral_Storage/src/Spiral
+   make
+   sudo ./Spiral
+   ```
+ 
    
-2. **Instructions for reproducing results:**  
-   Follow the number of keys used in our paper.
-
 ---
 
 ## **Acknowledgments**
