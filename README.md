@@ -51,14 +51,14 @@ Spiral storage is a dynamic hashing scheme proposed several decades ago. It has 
 ## **Setup and Installation**
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/repository-name.git
-   cd repository-name
+   [git clone https://github.com/your-username/repository-name.git](https://github.com/CASL-Wpeng/PASS.git)
+   cd PASS
    ```
 
 2. **Install dependencies:**
    [Provide dependency management instructions, e.g., using `requirements.txt` or Conda.]  
    ```bash
-   pip install -r requirements.txt
+   make
    ```
 
 3. **Additional setup instructions:**  
