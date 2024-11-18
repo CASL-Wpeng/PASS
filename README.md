@@ -56,29 +56,26 @@ Spiral storage is a dynamic hashing scheme proposed several decades ago. It has 
    ```
 
 2. **Install dependencies:**
-   [Provide dependency management instructions, e.g., using `requirements.txt` or Conda.]  
    ```bash
    make
    ```
 
 3. **Additional setup instructions:**  
-   [Mention any additional steps like downloading datasets, setting environment variables, etc.]
+  
 
 ---
 
 ## **Usage**
 1. **Running the main script:**  
-   [Provide an example of how to run your code.]  
+   To run the code with Pibench:
    ```bash
-   python main.py --arg1 value1 --arg2 value2
+   cd Pibench
+   make
+   sudo ./PiBench hashFunctionName -keys
    ```
-
+   
 2. **Instructions for reproducing results:**  
-   [Include clear steps to replicate the experiments presented in the paper.]
-
-3. **Visualizations:**  
-   [If applicable, explain how to visualize or interpret results.]
-
+   Follow the number of keys used in our paper.
 
 ---
 
