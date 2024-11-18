@@ -36,22 +36,19 @@ Spiral storage is a dynamic hashing scheme proposed several decades ago. It has 
 
 ## **Repository Structure**
 ```
-├── code/                   # Source code for experiments
-├── data/                   # Sample datasets or links to larger datasets
-├── results/                # Pre-generated results, plots, etc.
-├── scripts/                # Utility scripts for preprocessing, evaluation, etc.
-├── docs/                   # Additional documentation
+├── HashEvaluation/                  # Source code for Spiral Storage using Pibench
+├── Spiral_Storage/                  # Source code for Spiral Storage using YCSB
 └── README.md               # This README file
 ```
 
-[Add further descriptions for each folder as necessary.]
+The current version only contains the traditional spiral storage on PM. The code for PASS will be updated shortly.
 
 ---
 
 ## **Setup and Installation**
 1. **Clone the repository:**
    ```bash
-   [git clone https://github.com/your-username/repository-name.git](https://github.com/CASL-Wpeng/PASS.git)
+   git clone https://github.com/your-username/repository-name.git
    cd PASS
    ```
 
@@ -61,7 +58,7 @@ Spiral storage is a dynamic hashing scheme proposed several decades ago. It has 
    ```
 
 3. **Additional setup instructions:**  
-  
+   For the YCSB dataset, please refer to [YCSB](https://github.com/brianfrankcooper/YCSB).
 
 ---
 
