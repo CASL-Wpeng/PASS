@@ -17,8 +17,8 @@ This repo is used for "Persistent Spiral Storage" published in "The 42nd IEEE In
 ## **Introduction**
 This repository contains the code, data, and supplementary materials for our paper:
 
-> [**Persistent Spiral Storage**](link-to-paper)  
-> *Authors*: [Wenyu Peng](your-link), Tao Xie, Paul H. Siegel
+> [**Persistent Spiral Storage**]([link-to-paper](https://www.iccd-conf.com/agenda.html))  
+> *Authors*: [Wenyu Peng]([your-link](https://casl.sdsu.edu/wordpress/?page_id=69)), Tao Xie, Paul H. Siegel
 
 Presented at **ICCD 2024 (The 42nd IEEE International Conference on Computer Design)**.
 
