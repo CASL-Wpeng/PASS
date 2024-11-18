@@ -9,8 +9,6 @@ This repo is used for "Persistent Spiral Storage" published in "The 42nd IEEE In
 - [Repository Structure](#repository-structure)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
-- [Results](#results)
-- [Citation](#citation)
 - [Acknowledgments](#acknowledgments)
 - [License](#license)
 
@@ -24,25 +22,15 @@ This repository contains the code, data, and supplementary materials for our pap
 
 Presented at **ICCD 2024 (The 42nd IEEE International Conference on Computer Design)**.
 
-Spiral storage is a dynamic hashing scheme proposed several decades ago. It has been largely overlooked in the recent adaptation of disk/DRAM-oriented dynamic hashing schemes to persistent memory (PM). The main reason is that its computational complexity is higher than that of its two well-known peers (extendible hashing and linear hashing). After an in-depth analysis, however, we discover that spiral storage actually has a good potential for PM as it expands a hash table through address remapping, which leads to fewer PM reads and writes. To tap the potential of spiral storage on PM, we develop a persistent spiral storage called PASS (Persistence-Aware Spiral Storage), which is facilitated by a group of new/existing techniques. Further, we conduct a comprehensive evaluation of PASS on a multi-core server equipped with Intel Optane DC Persistent Memory Modules (DCPMM). The experimental results demonstrate that compared with four state-of-the-art schemes it exhibits comparable or even better performance and scalability. In addition, it achieves a similar load factor and requires the same amount of recovery time.
-
 ---
 
 ## **Paper Details**
 **Citation:**  
-[Provide the BibTeX entry or citation details for the paper.]  
-```bibtex
-@inproceedings{your-citation-key,
-  author    = {Your Name and Co-author},
-  title     = {Title of Your Paper},
-  booktitle = {Proceedings of the International Conference on Computer Design (ICCD)},
-  year      = {2024},
-  doi       = {DOI-if-available}
-}
-```
+
+Currently unavaliable
 
 **Abstract:**  
-[Include the paper's abstract here for context.]
+Spiral storage is a dynamic hashing scheme proposed several decades ago. It has been largely overlooked in the recent adaptation of disk/DRAM-oriented dynamic hashing schemes to persistent memory (PM). The main reason is that its computational complexity is higher than that of its two well-known peers (extendible hashing and linear hashing). After an in-depth analysis, however, we discover that spiral storage actually has a good potential for PM as it expands a hash table through address remapping, which leads to fewer PM reads and writes. To tap the potential of spiral storage on PM, we develop a persistent spiral storage called PASS (Persistence-Aware Spiral Storage), which is facilitated by a group of new/existing techniques. Further, we conduct a comprehensive evaluation of PASS on a multi-core server equipped with Intel Optane DC Persistent Memory Modules (DCPMM). The experimental results demonstrate that compared with four state-of-the-art schemes it exhibits comparable or even better performance and scalability. In addition, it achieves a similar load factor and requires the same amount of recovery time.
 
 ---
 
@@ -91,16 +79,6 @@ Spiral storage is a dynamic hashing scheme proposed several decades ago. It has 
 3. **Visualizations:**  
    [If applicable, explain how to visualize or interpret results.]
 
----
-
-## **Results**
-Current unavaliable
-
-
----
-
-## **Citation**
-Current unavaliable
 
 ---
 
